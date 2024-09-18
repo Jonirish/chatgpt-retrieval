@@ -9,7 +9,10 @@ Here's the [YouTube Video](https://youtu.be/9AXP7tCI9PI).
 Install [Langchain](https://github.com/hwchase17/langchain) and other required packages.
 ```
 
-pip install langchain==0.0.221 openai==0.27.7 chromadb==0.3.21 tiktoken==0.4.0 unstructured==0.6.4 pdf2image
+pip install langchain==0.0.221 openai==0.27.7 chromadb==0.3.21 tiktoken==0.4.0 unstructured==0.6.4 pdf2image pytesseract
+apt-get install poppler-utils
+apt install tesseract-ocr
+
 
 ```
 Modify `constants.py.default` to use your own [OpenAI API key](https://platform.openai.com/account/api-keys), and rename it to `constants.py`.
